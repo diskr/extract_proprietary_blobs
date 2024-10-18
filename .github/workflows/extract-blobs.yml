@@ -6,35 +6,35 @@ on:
       FIRMWARE_DUMP_REPO:
         description: 'Firmware Dump Repository URL'
         required: true
-        default: ''
+        default: 'https://dumps.tadiphone.dev/dumps/lava/lxx504.git'
       FIRMWARE_DUMP_BRANCH:
         description: 'Firmware Dump Repository Branch'
         required: true
-        default: ''
+        default: 'LXX504-user-14-UP1A.231005.007-1725450312-release-keys'
       DEVICE_TREE_REPO:
         description: 'Device Tree Repository URL'
         required: true
-        default: ''
+        default: 'https://github.com/diskr/device_lava_lxx504.git'
       DEVICE_TREE_BRANCH:
         description: 'Device Tree Repository Branch'
         required: true
-        default: ''
+        default: 'LineageOS-21'
       DEVICE_CODENAME:
         description: 'Device Codename'
         required: true
-        default: ''
+        default: 'LXX504'
       DEVICE_VENDORNAME:
         description: 'Device Vendor Name'
         required: true
-        default: ''
+        default: 'lava'
       USER_NAME:
         description: 'Name in Github Account'
         required: true
-        default: 'Carlo Dee'
+        default: 'diskr'
       USER_EMAIL:
         description: 'E-mail in Github Account'
         required: true
-        default: 'carlodee.official@proton.me'
+        default: 'eduyl@proton.me'
 
 jobs:
   build:
